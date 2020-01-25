@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+
+  <h1 align="center"> calculation </h1>
+<pre>
+  First Number  :<input type="number" [(ngModel)]="firstNumber"/> <br>
+  Second Number :<input type="number" [(ngModel)]="secondNumber"/> <br>
+  Result        :<input type="number"  [(ngModel)]="result"/> <br>
+</pre>
+
+  <button id="cole" (click)="addCalc()" >add</button> 
+  <button id="loral" (click)="subCalc()">sub</button> 
+  <button id="cole" (click)="mulCalc()">mul</button>
+  <button id="loral" (click)="divCalc()">div</button>
+  
+</body>
+</html>
